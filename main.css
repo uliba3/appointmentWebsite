@@ -1,0 +1,162 @@
+/* main.css */
+/* word-wrap*/
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10vh;
+}
+
+.fa {
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+a, a:visited { 
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Header */
+.Header {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HeadPhoto {
+    width: 80vw;
+}
+
+/* Service Description */
+.Service {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ServiceDescription {
+    text-align: center;
+    font-size: large;
+}
+
+/* Session steps */
+.SessionSteps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sessioncards {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.Sessioncard {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sessioncard .Title {
+    font-size: x-large;
+}
+
+/* Member */
+.MemberList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Members {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Member {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: WhiteSmoke;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.Member:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Member .Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Member .Profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Member .Name {
+    font-size: x-large;
+}
+
+.Member .Icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fa-calendar-check {
+    font-size: medium;
+}
+
+.Member .Hashtags {
+    color: deepskyblue;
+}
+
+/* QA */
+.QAs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.QA {
+    text-align: center;
+}
+
+/* Footer */
+.Footer {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
