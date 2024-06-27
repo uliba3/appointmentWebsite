@@ -1,5 +1,6 @@
 /* main.css */
 /* word-wrap*/
+/*気軽に相談できる留学サポートサイト*/
 
 body {
     display: flex;
@@ -55,10 +56,12 @@ img {
 
 /* Session steps */
 .SessionSteps {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: whitesmoke;
 }
 
 .Sessioncards {
@@ -114,6 +117,7 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin: 20px;
 }
 
 .Member .Profile {
@@ -141,7 +145,13 @@ img {
 }
 
 /* QA */
+.QAcontainer {
+    background-color: whitesmoke;
+    width: 80vw;
+}
+
 .QAs {
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
